@@ -2,14 +2,19 @@
   margin: 0;
   padding: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  text-shadow: 2px 2px 5px black;
+  text-shadow: 2px 2px 5px #101a12;
+}
+
+body {
+  background-color: #9efaac;
+  color: #08220d;
 }
 
 .navbar {
-  background-color: gray;
+  background-color: #005f0f;
   overflow: hidden;
   border-radius: 0px 0px 10px 10px;
-  box-shadow: 0px 10px 20px black;
+  box-shadow: 0px 10px 20px #101a12;
 }
 .navbar nav {
   float: left;
@@ -24,7 +29,7 @@
 }
 .navbar nav a:hover {
   background-color: white;
-  color: gray;
+  color: #005f0f;
 }
 
 .badan {
@@ -41,11 +46,9 @@
   width: 90%;
 }
 .badan .slide table th, .badan .slide table td {
-  background-color: grey;
+  background-color: #005f0f;
   color: white;
 }
 .badan .slide input {
   width: 100%;
 }
-
-/*# sourceMappingURL=style.css.map */

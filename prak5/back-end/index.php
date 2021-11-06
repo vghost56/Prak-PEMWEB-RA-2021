@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabut</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="1503577975.png" type="image/x-icon">
     <script src="jquery-3.5.1.min.js"></script>
     <script src="javascript.js"></script>
 </head> 

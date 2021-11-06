@@ -19,7 +19,6 @@
             echo "<td>".$row["alamat"]."</td>";
             echo "<td>".$row["no_wa"]."</td>";
             echo "</tr>";
-            echo "id: " . $row["ID"]. " - Name: " . $row["nama_mhs"]. " - Alamat: " . $row["alamat"]." - No WA: " . $row["no_wa"]. "<br>";
         }
       }
 
