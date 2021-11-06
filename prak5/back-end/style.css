@@ -30,7 +30,7 @@
 .badan {
   padding: 20px;
   display: grid;
-  grid-template-columns: 1200px auto;
+  grid-template-columns: 900px auto;
 }
 .badan .slide {
   padding: 5px;
@@ -38,7 +38,7 @@
   text-align: center;
 }
 .badan .slide table {
-  width: 100%;
+  width: 90%;
 }
 .badan .slide table th, .badan .slide table td {
   background-color: grey;
