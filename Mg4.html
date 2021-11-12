@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="jquery-3.5.1.min.js"></script>
+</head>
+
+<body>
+    <form method="post" id="form_mhs">
+        <label>NIM </label>
+        <input type="number" name="nim"><br>
+        <label>Nama </label>
+        <input type="text" name="nama"><br>
+        <label>Prodi </label>
+        <input type="text" name="prodi"><br>
+        <label>Angkatan </label>
+        <input type="number" name="angk"><br>
+    </form>
+    <button id="btn_show">Tampilkan</button>
+    <hr>
+    <div id="show_dat"></div>
+    <script>
+            $(document).ready(function(){
+                $('#show_dat').load("tampil.php")
+                $('#btn_show').click(function(){
+                    var data = $('#form_mhs').serialize();
+                    $.ajax({
+                        type : 'POST',
+                        url : "tambah.php",
+                        data : data,
+                        cache : false,
+                        success : function(data){
+                            $('#show_dat').load("tampil.php");
+                        }
+                    });
+                });
+            });
+    </script>
+</body>
+</html>
