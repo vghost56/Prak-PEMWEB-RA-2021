@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <meta charset="UTF-8">
+    <title>- Minggu 3 -</title>
+    <p>Tema :
+        <select onchange="sel_theme(value)" id="warna">
+            <option value="white">Default</option>
+            <option value="black">Mode Gelap</option>
+        </select>
+    </p>
+    <h1>Praktikum Minggu 3</h1>
+</head>
+<body>
+    <p>Kamu berharap bahwa kamu :
+        <select onchange="sel_state(value)" id="state">
+            <option value="def">-</option>
+            <option value="puas">Puas</option>
+            <option value="kaya">Kaya</option>
+            <option value="ganteng">Ganteng</option>
+            <option value="waifu">Waifu Real</option>
+        </select>
+    </p>
+    <p id="result">
+        Kamu hidup dalam kenyataan dan kamu tidak puas.
+    </p> 
+
+    <p>Input angka :
+        <input type="number" id="number">
+        <button onclick="inp_fact(number.value)">Hasil Faktorial</button>
+    </p>
+    <p id="jawab">
+        Faktorialnya adalah 
+    </p>
+
+    <script src="mg3_funct.js">
+    </script>
+</body>
+</html>
